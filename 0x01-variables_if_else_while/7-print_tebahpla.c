@@ -3,7 +3,7 @@
 /**
  * main - start of main code.this is the main body
  *
- * return: 0 successfully compiled
+ * Return: 0 successfully compiled
  */
 
 int main(void)
