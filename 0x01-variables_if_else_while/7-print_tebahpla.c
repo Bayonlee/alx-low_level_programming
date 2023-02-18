@@ -1,14 +1,16 @@
 #include <stdio.h>
+
 /**
- * main - start of c code
+ * main - start of main code
  *
- * Return: 0 program is successful
+ * return: 0 successfully compiled
  */
+
 int main(void)
 {
 	char i;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (i = 'z'; i >= 'a'; i--)
 		putchar(i);
 	putchar('\n');
 	return (0);
