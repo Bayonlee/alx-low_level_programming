@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - start of main code
+ * main - start of main code.this is the main body
  *
  * return: 0 successfully compiled
  */
