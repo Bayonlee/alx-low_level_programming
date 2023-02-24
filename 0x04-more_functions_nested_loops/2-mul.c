@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  * mul - function to multiply
- * @a: parameter a
- * @b: parameter b
+ * @c: parameter c
  *
  */
 int mul(int a, int b)
