@@ -1,12 +1,16 @@
 #include "main.h"
 /**
  * mul - function to multiply
- * @c: parameter c
+ *
+ * @b: parameter
+ * @a: parameter
+ * Return: c when success
  *
  */
 int mul(int a, int b)
 {
 	int c;
+
 	c = a * b;
 	return (c);
 }
