@@ -2,7 +2,7 @@
 /**
  * print_last_digit -  function to print last digit
  *
- * @b: storing the formular
+ * @a: val to check
  * Return: b if successful
  *
  */
