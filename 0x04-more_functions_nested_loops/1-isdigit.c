@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * _isdigit - function to check for zero to nine
- * Return: 1 if its digit and 0 if its not 
+ * @c: charcter to be checked
+ * Return: 1 if its digit and 0 if its not
  */
 int _isdigit(int c)
 {
