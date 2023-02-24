@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * print_numbers - function to print num
- * @i: function to check
+ * print_numbers - function to check numbers
  * Return: 0 successful
  */
 void print_numbers(void)
@@ -11,8 +10,7 @@ void print_numbers(void)
 	for (i = 0; i <= 9; i++)
 	{
 		_putchar(i + '0');
-		_putchar('\n');
 	}
-	return (0);
+	_putchar('\n');
 }
 
