@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * print_sign - function to check sign
+ * print_sign - print sugn function
  * @n: number to be checked
- * Return: 0  as succes
+ * Return: 1 if positive
+ * and 0 if zero
+ * and -1 if negative
  */
-
 int print_sign(int n)
 {
 	if (n > 0)
@@ -24,4 +25,3 @@ int print_sign(int n)
 		return (-1);
 	}
 }
-
