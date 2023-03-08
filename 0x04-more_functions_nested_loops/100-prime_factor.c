@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*
- * main - function h to find largest prime number
+/**
+ * main - main function to find largest prime no
  * Return: 0
  */
 int main(void)
