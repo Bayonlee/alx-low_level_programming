@@ -15,6 +15,9 @@ int _sqrt_recursion(int n)
 }
 /**
  * helpersqr - function to find the sqare root for _sqrt_recursion
+ * @n: the number we are checking the square root
+ * @m: iterator 
+ * Return: results
  */
 int helpersqr(int n, int m)
 {
