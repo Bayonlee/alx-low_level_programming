@@ -13,6 +13,9 @@ int _sqrt_recursion(int n)
 	}
 	return (helpersqr(n, 0));
 }
+/**
+ * helpersqr - function to find the sqare root for _sqrt_recursion
+ */
 int helpersqr(int n, int m)
 {
 	if (m * m > n)
