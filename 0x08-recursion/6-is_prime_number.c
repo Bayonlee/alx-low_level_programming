@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * is_prime_number - prime main function
- * *n: number to be checked
+ * @n: number to be checked
  * Return: primeno function
  */
 int is_prime_number(int n)

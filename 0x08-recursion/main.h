@@ -11,8 +11,9 @@ int _putchar(char c);
 int helpersqr(int n, int m);
 int primeno(int a, int b);
 int is_palindrome(char *s);
-int wildcmp(char *s1, char *s2);
-
+int wildcmp(char *s1, char*s2);
+int helper_(char *str, int length, int count);
+int strlen_(char *str);
 
 
 #endif
