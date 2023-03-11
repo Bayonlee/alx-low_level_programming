@@ -1,22 +1,29 @@
 #include "main.h"
+#include <stdio.h>
 /**
- * _strpbrk - Entry point
- * @s: input
- * @accept: input
- * Return: Always 0 (Success)
+ * _strpbrk - function to search strimg for any byte
+ * @s: string to be recived
+ * @accept: byte to accept
+ * Return: Null
  */
 char *_strpbrk(char *s, char *accept)
 {
-	int k;
+	int j = 0;
+	int flag;
 
-	while (*s)
+	while (*s != '\0')
 	{
-		for (k = 0; accept[k]; k++)
+		flag = 0;
+		while (*(accept + j) != '\0')
 		{
-		if (*s == accept[k])
-		return (s);
+			if (*s == *(accept + j))
+				flag = 1;
+			j++;
 		}
-	s++;
+		j = 0;
+		if (flag == 1)
+			return (s);
+		s++;
 	}
-	return ('\0');
+	return (NULL);
 }

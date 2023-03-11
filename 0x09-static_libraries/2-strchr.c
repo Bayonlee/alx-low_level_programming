@@ -1,18 +1,21 @@
 #include "main.h"
+#include <stdio.h>
 /**
- * _strchr - Entry point
- * @s: input
- * @c: input
- * Return: Always 0 (Success)
+ * _strchr - function tolocate character in a string
+ * @s: string to recieve and return
+ * @c: character to be recieved
+ * Return: char
  */
 char *_strchr(char *s, char c)
 {
-	int i = 0;
-
-	for (; s[i] >= '\0'; i++)
+	while (*s != '\0')
 	{
-		if (s[i] == c)
-			return (&s[i]);
+		if (*s == c)
+			return (s);
+		s++;
 	}
-	return (0);
+	if (*s == c)
+		return (s);
+	else
+		return (NULL);
 }
