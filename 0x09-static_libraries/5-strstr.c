@@ -18,9 +18,8 @@ char *_strstr(char *haystack, char *needle)
 			a++;
 			b++;
 		}
-		if (*a = '\0')
+		if (*a == '\0')
 			return (haystack);
 	}
-	return (NULL);
+	return (0);
 }
-
