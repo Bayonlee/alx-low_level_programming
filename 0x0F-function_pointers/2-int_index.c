@@ -4,6 +4,7 @@
  * @array: arg array
  * @size: size of int
  * @cmp: arg cmp
+ * Return: -1
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
