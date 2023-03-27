@@ -57,12 +57,11 @@ int op_div(int a, int b)
 }
 
 /**
-  * op_mod - function to find modulus
-  * @a: int a 
-  * @b: int b
-  *
-  * Return: a%b
-  */
+ * op_mod - function to find modulus
+ * @a: int a
+ * @b: int b
+ * Return: a%b
+ */
 int op_mod(int a, int b)
 {
 	if (b == 0)
