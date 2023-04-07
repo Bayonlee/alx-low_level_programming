@@ -2,10 +2,11 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * read_textfile - function that readsa text file and print it to the posix standard output
+ * read_textfile - function that readsa text file
+ * and print it to the posix standard output
  * @filename: name of file
  * @letters: size of file to be read
- * Return: 
+ * Return: wri
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
