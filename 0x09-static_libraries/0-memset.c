@@ -4,9 +4,9 @@
  * @s: address lf memory to be filled
  * @a: thedesired value
  * @n: number of bytes to be changed
- * Return:
+ * Return: 0 if successful
  */
-char _memset(char  *s, char a, unsigned int n)
+char _memset(char *s, char a, unsigned int n)
 {
-	return(0);
+	return (0);
 }

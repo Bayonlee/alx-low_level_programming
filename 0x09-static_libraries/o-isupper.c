@@ -1,8 +1,9 @@
 #include "main.h"
 /**
  * _isupper - function to check uppercase letter
- * Return: 1 if uppercase ,else return 
- * */
+ * @a: letternto be checked
+ * Return: 1 if uppercase ,else return
+ */
 int _isupper(int a)
 {
 	if (a >= 41)
